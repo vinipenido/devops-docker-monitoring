@@ -1,0 +1,8 @@
+Rodar por Dockerfile
+
+docker build -t nascimentogabriel/exemplo09 .
+docker run -d  -p 8001:80 nascimentogabriel/exemplo09
+
+ou por docker-compose
+
+docker-compose up
